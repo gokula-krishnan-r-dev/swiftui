@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D19F7C3E2BBC3F450035291B /* autocommentIq_tvApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F7C3D2BBC3F450035291B /* autocommentIq_tvApp.swift */; };
+		D19F7C402BBC3F450035291B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F7C3F2BBC3F450035291B /* ContentView.swift */; };
+		D19F7C422BBC3F470035291B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19F7C412BBC3F470035291B /* Assets.xcassets */; };
+		D19F7C452BBC3F470035291B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19F7C442BBC3F470035291B /* Preview Assets.xcassets */; };
+		D19F7C4F2BBC3F470035291B /* autocommentIq_tvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F7C4E2BBC3F470035291B /* autocommentIq_tvTests.swift */; };
+		D19F7C592BBC3F470035291B /* autocommentIq_tvUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F7C582BBC3F470035291B /* autocommentIq_tvUITests.swift */; };
+		D19F7C5B2BBC3F470035291B /* autocommentIq_tvUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F7C5A2BBC3F470035291B /* autocommentIq_tvUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D19F7C4B2BBC3F470035291B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D19F7C322BBC3F450035291B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D19F7C392BBC3F450035291B;
+			remoteInfo = "autocommentIq-tv";
+		};
+		D19F7C552BBC3F470035291B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D19F7C322BBC3F450035291B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D19F7C392BBC3F450035291B;
+			remoteInfo = "autocommentIq-tv";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D19F7C3A2BBC3F450035291B /* autocommentIq-tv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "autocommentIq-tv.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19F7C3D2BBC3F450035291B /* autocommentIq_tvApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autocommentIq_tvApp.swift; sourceTree = "<group>"; };
+		D19F7C3F2BBC3F450035291B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D19F7C412BBC3F470035291B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D19F7C442BBC3F470035291B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D19F7C4A2BBC3F470035291B /* autocommentIq-tvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "autocommentIq-tvTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19F7C4E2BBC3F470035291B /* autocommentIq_tvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autocommentIq_tvTests.swift; sourceTree = "<group>"; };
+		D19F7C542BBC3F470035291B /* autocommentIq-tvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "autocommentIq-tvUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19F7C582BBC3F470035291B /* autocommentIq_tvUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autocommentIq_tvUITests.swift; sourceTree = "<group>"; };
+		D19F7C5A2BBC3F470035291B /* autocommentIq_tvUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autocommentIq_tvUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D19F7C372BBC3F450035291B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19F7C472BBC3F470035291B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19F7C512BBC3F470035291B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D19F7C312BBC3F450035291B = {
+			isa = PBXGroup;
+			children = (
+				D19F7C3C2BBC3F450035291B /* autocommentIq-tv */,
+				D19F7C4D2BBC3F470035291B /* autocommentIq-tvTests */,
+				D19F7C572BBC3F470035291B /* autocommentIq-tvUITests */,
+				D19F7C3B2BBC3F450035291B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D19F7C3B2BBC3F450035291B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D19F7C3A2BBC3F450035291B /* autocommentIq-tv.app */,
+				D19F7C4A2BBC3F470035291B /* autocommentIq-tvTests.xctest */,
+				D19F7C542BBC3F470035291B /* autocommentIq-tvUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D19F7C3C2BBC3F450035291B /* autocommentIq-tv */ = {
+			isa = PBXGroup;
+			children = (
+				D19F7C3D2BBC3F450035291B /* autocommentIq_tvApp.swift */,
+				D19F7C3F2BBC3F450035291B /* ContentView.swift */,
+				D19F7C412BBC3F470035291B /* Assets.xcassets */,
+				D19F7C432BBC3F470035291B /* Preview Content */,
+			);
+			path = "autocommentIq-tv";
+			sourceTree = "<group>";
+		};
+		D19F7C432BBC3F470035291B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D19F7C442BBC3F470035291B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D19F7C4D2BBC3F470035291B /* autocommentIq-tvTests */ = {
+			isa = PBXGroup;
+			children = (
+				D19F7C4E2BBC3F470035291B /* autocommentIq_tvTests.swift */,
+			);
+			path = "autocommentIq-tvTests";
+			sourceTree = "<group>";
+		};
+		D19F7C572BBC3F470035291B /* autocommentIq-tvUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D19F7C582BBC3F470035291B /* autocommentIq_tvUITests.swift */,
+				D19F7C5A2BBC3F470035291B /* autocommentIq_tvUITestsLaunchTests.swift */,
+			);
+			path = "autocommentIq-tvUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D19F7C392BBC3F450035291B /* autocommentIq-tv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D19F7C5E2BBC3F470035291B /* Build configuration list for PBXNativeTarget "autocommentIq-tv" */;
+			buildPhases = (
+				D19F7C362BBC3F450035291B /* Sources */,
+				D19F7C372BBC3F450035291B /* Frameworks */,
+				D19F7C382BBC3F450035291B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "autocommentIq-tv";
+			productName = "autocommentIq-tv";
+			productReference = D19F7C3A2BBC3F450035291B /* autocommentIq-tv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D19F7C492BBC3F470035291B /* autocommentIq-tvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D19F7C612BBC3F470035291B /* Build configuration list for PBXNativeTarget "autocommentIq-tvTests" */;
+			buildPhases = (
+				D19F7C462BBC3F470035291B /* Sources */,
+				D19F7C472BBC3F470035291B /* Frameworks */,
+				D19F7C482BBC3F470035291B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D19F7C4C2BBC3F470035291B /* PBXTargetDependency */,
+			);
+			name = "autocommentIq-tvTests";
+			productName = "autocommentIq-tvTests";
+			productReference = D19F7C4A2BBC3F470035291B /* autocommentIq-tvTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D19F7C532BBC3F470035291B /* autocommentIq-tvUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D19F7C642BBC3F470035291B /* Build configuration list for PBXNativeTarget "autocommentIq-tvUITests" */;
+			buildPhases = (
+				D19F7C502BBC3F470035291B /* Sources */,
+				D19F7C512BBC3F470035291B /* Frameworks */,
+				D19F7C522BBC3F470035291B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D19F7C562BBC3F470035291B /* PBXTargetDependency */,
+			);
+			name = "autocommentIq-tvUITests";
+			productName = "autocommentIq-tvUITests";
+			productReference = D19F7C542BBC3F470035291B /* autocommentIq-tvUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D19F7C322BBC3F450035291B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D19F7C392BBC3F450035291B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					D19F7C492BBC3F470035291B = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D19F7C392BBC3F450035291B;
+					};
+					D19F7C532BBC3F470035291B = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D19F7C392BBC3F450035291B;
+					};
+				};
+			};
+			buildConfigurationList = D19F7C352BBC3F450035291B /* Build configuration list for PBXProject "autocommentIq-tv" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D19F7C312BBC3F450035291B;
+			productRefGroup = D19F7C3B2BBC3F450035291B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D19F7C392BBC3F450035291B /* autocommentIq-tv */,
+				D19F7C492BBC3F470035291B /* autocommentIq-tvTests */,
+				D19F7C532BBC3F470035291B /* autocommentIq-tvUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D19F7C382BBC3F450035291B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19F7C452BBC3F470035291B /* Preview Assets.xcassets in Resources */,
+				D19F7C422BBC3F470035291B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19F7C482BBC3F470035291B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19F7C522BBC3F470035291B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D19F7C362BBC3F450035291B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19F7C402BBC3F450035291B /* ContentView.swift in Sources */,
+				D19F7C3E2BBC3F450035291B /* autocommentIq_tvApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19F7C462BBC3F470035291B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19F7C4F2BBC3F470035291B /* autocommentIq_tvTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19F7C502BBC3F470035291B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19F7C592BBC3F470035291B /* autocommentIq_tvUITests.swift in Sources */,
+				D19F7C5B2BBC3F470035291B /* autocommentIq_tvUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D19F7C4C2BBC3F470035291B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D19F7C392BBC3F450035291B /* autocommentIq-tv */;
+			targetProxy = D19F7C4B2BBC3F470035291B /* PBXContainerItemProxy */;
+		};
+		D19F7C562BBC3F470035291B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D19F7C392BBC3F450035291B /* autocommentIq-tv */;
+			targetProxy = D19F7C552BBC3F470035291B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D19F7C5C2BBC3F470035291B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		D19F7C5D2BBC3F470035291B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D19F7C5F2BBC3F470035291B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"autocommentIq-tv/Preview Content\"";
+				DEVELOPMENT_TEAM = GZM73634C6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gokul.autocommentIq-tv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		D19F7C602BBC3F470035291B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"autocommentIq-tv/Preview Content\"";
+				DEVELOPMENT_TEAM = GZM73634C6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gokul.autocommentIq-tv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		D19F7C622BBC3F470035291B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZM73634C6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gokul.autocommentIq-tvTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autocommentIq-tv.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/autocommentIq-tv";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		D19F7C632BBC3F470035291B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZM73634C6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gokul.autocommentIq-tvTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autocommentIq-tv.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/autocommentIq-tv";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+		D19F7C652BBC3F470035291B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZM73634C6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gokul.autocommentIq-tvUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "autocommentIq-tv";
+			};
+			name = Debug;
+		};
+		D19F7C662BBC3F470035291B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZM73634C6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gokul.autocommentIq-tvUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "autocommentIq-tv";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D19F7C352BBC3F450035291B /* Build configuration list for PBXProject "autocommentIq-tv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19F7C5C2BBC3F470035291B /* Debug */,
+				D19F7C5D2BBC3F470035291B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D19F7C5E2BBC3F470035291B /* Build configuration list for PBXNativeTarget "autocommentIq-tv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19F7C5F2BBC3F470035291B /* Debug */,
+				D19F7C602BBC3F470035291B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D19F7C612BBC3F470035291B /* Build configuration list for PBXNativeTarget "autocommentIq-tvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19F7C622BBC3F470035291B /* Debug */,
+				D19F7C632BBC3F470035291B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D19F7C642BBC3F470035291B /* Build configuration list for PBXNativeTarget "autocommentIq-tvUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19F7C652BBC3F470035291B /* Debug */,
+				D19F7C662BBC3F470035291B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D19F7C322BBC3F450035291B /* Project object */;
+}
